@@ -21,6 +21,10 @@ Working end to end:
 
 Not built yet: voice keyboard (IME), persistence across launches, sync, LLM post-processing.
 
+## Progress (M1)
+
+Eu și colega mea am lucrat de pe laptop-ul meu pentru această etapă.
+
 ## Build
 
 Requirements: JDK 17+ (built with 21), Android SDK 35, a device or emulator on API 26+.
