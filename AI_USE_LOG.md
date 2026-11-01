@@ -1,0 +1,4 @@
+Am folosit AI-ul întregul codebase. În esență, am dat o referință la documentul PDF consecințele și criteriile și am spus destul de clar cam ce doresc. Am folosit un DeepSeek v4.1 Flash ca să fac un document de plan, iar pe baza planului ai implementat UI-ul exact cu feature-urile pe care le-am cerut.
+Drept harness am folosit OpenCode V2 și, ca IDE, am folosit Android Studio. IDE-ul are o integrare interesantă cu OpenCode deoarece expune un MCP pentru LSP și emulator.
+
+În continuare dorim să folosim AI-ul pentru a înțelege elemente de Kotlin și Android și pentru scaffolding a unei idei pe care o avem înainte de a ne crea o imagine clară pentru cum vrem să arate codul.
