@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">OpenFlow</string>
+    <string name="app_tagline">Speech to text, on device</string>
+</resources>
