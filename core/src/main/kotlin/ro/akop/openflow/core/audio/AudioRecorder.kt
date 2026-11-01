@@ -82,7 +82,7 @@ class AudioRecorder(
         val startedAt = SystemClock.elapsedRealtime()
 
         while (capturing) {
-            val read = audioRecord.read(buffer, 0, buffer.size)
+            val read = runCatching { audioRecord.read(buffer, 0, buffer.size) }.getOrDefault(-1)
             if (read <= 0) continue
 
             chunks += buffer.copyOf(read)
